@@ -1,0 +1,62 @@
+# Python bytecode files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+env/
+venv/
+virtualenv/
+.poetry/
+
+# Poetry lock file
+poetry.lock
+
+# Environment variables and secrets
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+*.secret
+
+# Django-related files
+db.sqlite3
+*.log
+*.pot
+*.py[co]
+
+# Django migrations (except __init__.py)
+**/migrations/*.pyc
+**/migrations/__pycache__/
+**/migrations/*.py
+!**/migrations/__init__.py
+
+# Test and coverage reports
+.coverage
+pytest_cache/
+htmlcov/
+nosetests.xml
+coverage.xml
+*.cover
+.cache
+
+# VS Code configuration
+.vscode/
+*.code-workspace
+
+# Docker files
+docker-compose.override.yml
+**/docker-compose.override.yml
+**/.dockerignore
+
+# Log files
+logs/
+*.log
+*.out
+*.err
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
