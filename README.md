@@ -1,27 +1,12 @@
-# Test-technique-Django-DRF
-
-Un test technique django/drf sur la thématique de bars/bières.
-
-# Test Technique Unyc
+# Django-DRF
 
 ## Préambule
 
-L'objectif de ce test est de développer une application Django en respectant les objectifs suivants:
+L'objectif est de développer une application Django en respectant les objectifs suivants:
 - Utiliser Django et Django Rest Framework (vous pouvez utiliser les dernières versions)
 - Coder en Python 3
 - Utiliser les bonnes pratiques de Django et de DRF
 - Coder le moins de lignes possible
-
-Cela nous permettra d'évaluer ton degré de compréhension d'une spécification, ta capacité à lire et interpréter la documentation, et la rigueur et la qualité de ton code. Bien entendu, ton niveau d'expérience sur Django/DRF sera pris en compte !
-
-Il n'existe pas de solution unique ni de *bonne* réponse, ta capacité à trouver des solutions et à interpréter les consignes fait partie de l'exercice.
-
-L'utilisation de git et github/bitbucket/gitlab est obligatoire. Lorsque tu as terminé il faudra :
-- Créer une issue
-- Mettre ton code dans une branche attachée à l'issue
-- Créer une merge request et nous la transmettre afin de procéder à la review du code et qu'on puisse y mettre nos commentaires.
-
-*Merci de respecter la confidentialité de ce test et de ne pas le diffuser*.
 
 
 ## Consignes
@@ -226,9 +211,3 @@ Les droits doivent être gérés dans des groupes.
 Pour permettre de se servir de cette application, il faut ajouter des fixtures que l'on peut charger pour bootstraper l'application (utilisateurs, bars, references, stocks).
 
 Bien sûr, des tests utilisant les fixtures sont appréciés pour valider le fonctionnement de l'application.
-
-N'hésite pas à intégrer dans le code tous type de bonus qui pourraient nous permettre de bien cerner ton niveau (Dockerfile, déploiement kubernetes, packaging, documentation..., les possibilités sont infinies ;-) ).
-
-En règle générale, on estime qu'un test réussi rime souvent avec l'écriture du moins de ligne possible. Ce conseil n'est pas à prendre au pied de la lettre: ne nommez pas les variables avec une seul lettre ! Le code doit resté lisible. Mais ne réinventez pas la roue :)
-
-Bon test !
